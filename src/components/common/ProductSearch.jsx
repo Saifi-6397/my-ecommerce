@@ -13,7 +13,6 @@ const ProductSearch = () => {
         queryFn: fetchSearchProduct,
         enabled: search.trim() !== ""
     })
-    console.log("serach product", data)
 
     return (
         <div className="w-[20%]">
